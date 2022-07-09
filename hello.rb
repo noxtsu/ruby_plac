@@ -1,3 +1,6 @@
+name = "A"
+weight = 50
+
 puts 'Hello, World!'
 
 puts "I"+"am"+"Sam"
@@ -10,3 +13,5 @@ puts "私の名前はメンター太郎です。年齢は" + 24.to_s + "歳で�
 
 puts "WEBCAMPでプログラミング学習".downcase
 
+puts name + "さんの体重は" + weight.to_s + "kgです。"
+puts "#{name}さんの体重は#{weight}kgです。"
